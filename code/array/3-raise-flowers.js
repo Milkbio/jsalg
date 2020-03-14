@@ -9,5 +9,5 @@ export default function (val, n) {
       num++;
     }
   }
-  return n === num;
+  return n <= num;
 }
